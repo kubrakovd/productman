@@ -100,13 +100,17 @@ textarea {
 	color: #EEEEEE;
 }
 
-.ba-bw{
-	background: radial-gradient(ellipse at center, #feffff 0%, #EEEEEE 70%);
-}
-
 .ba-bw__text {
 	width: 615px;
 	text-align: right;
+}
+
+.ba-grid {
+	margin:0 auto;
+}
+
+.ba-grid:nth-child(2) {
+	margin-left:100px;
 }
 
 .ba-bw__title {
@@ -191,7 +195,7 @@ textarea {
 	width: 325px;
 	height: 385px;
 	position: absolute;
-	left: -1px;
+	left: 0;
 	top: 0;
 	background-color: #DF0011;
 	overflow: hidden;
@@ -205,7 +209,7 @@ textarea {
 	width: 695px;
 	height: 387px;
 	position: absolute;
-	left: -1px;
+	left: 0;
 	top: 0;
 	background-color: #DF0011;
 	overflow: hidden;
@@ -246,23 +250,4 @@ textarea {
 	margin-left: 20px;
 }
 
-/*
 
-img {
-	max-width: 100%;
-}
-.ba-intro__title {
-	font-family: "Raleway", sans-serif;
-	color:  #303030;
-	font-size: 150px;
-	font-weight: 900;
-	line-height: 150px;
-
-}
-
-.ba-first {
-	width:1096px;
-	height:491px;
-	text-align: left;
-}
- */
