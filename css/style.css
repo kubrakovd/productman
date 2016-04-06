@@ -199,7 +199,7 @@ textarea {
 	top: 0;
 	background-color: #DF0011;
 	overflow: hidden;
-	transform: translateY(-385px);
+	transform: translateY(385px);
 	opacity: 1;
 	transition: all 0.8s ease-in-out;
 	border-radius: 5px;
@@ -213,7 +213,7 @@ textarea {
 	top: 0;
 	background-color: #DF0011;
 	overflow: hidden;
-	transform: translateY(-387px);
+	transform: translateX(695px);
 	opacity: 1;
 	transition: all 0.8s ease-in-out;
 	border-radius: 5px;
