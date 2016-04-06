@@ -166,6 +166,22 @@ textarea {
 	margin-bottom: 0;
 }
 
+
+.ba-submit {
+	padding-top: 100px;
+	padding-bottom: 42px;
+	border-radius: 5px;
+}
+
+.ba-news__title {
+	font-family: 'Raleway',sans-serif;
+	font-size: 48px;
+	font-weight: 900;
+	margin-bottom: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 .ba-featured__text {
 	max-width: 551px;
 	margin: 0 auto;
@@ -173,7 +189,58 @@ textarea {
 	padding-bottom: 78px;
 }
 
+.ba-news__text {
+	max-width: 551px;
+	margin: 0 auto;
+	font: 400 18px/1.5 'Raleway', sans-serif;
+	padding-bottom: 78px;
+}
 
+.ba-textfield {
+
+	margin-left:320px;
+	width: 492px;
+	height: 70px;
+	border-radius: 50% 0 0 50%;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+}
+
+.ba-textfield:hover {
+	text-transform: uppercase;
+}
+
+.ba-news__button {
+	max-width: 212px;
+	height: 70px;
+	border-radius: 0 50% 50% 0;
+	text-transform: uppercase;
+	background: #E10011;
+	color: #F7C3C7;
+
+}
+
+.ba-news__button:hover {
+	box-shadow: 0 10px 10px red;
+}
+
+.ba-news__button:focus,
+.ba-textfield {
+	outline: none;
+}
+
+.ba-link__logo {
+	display:inline-block;
+}
+
+.ba-link__logo:first-child {
+	margin-left: 420px;
+}
+
+.ba-link__logo:hover {
+	box-shadow: 0 10px 10px red;
+}
 
 .ba-featured__img13 {
 	width: 325px;
@@ -244,10 +311,22 @@ textarea {
 }
 
 .ba-featured__rectangle {
-	width: 90px;
+	max-width: 90px;
 	height: 5px;
 	background-color: #FFF;
 	margin-left: 20px;
 }
 
 
+.ba-footer {
+	margin-top: 65px;
+	text-align: center;
+}
+
+.ba-footer__text {
+	color: #A3A3A3;
+}
+
+.ba-company {
+	color: #303030;
+}
