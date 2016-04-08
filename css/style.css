@@ -142,21 +142,20 @@ textarea {
 	color: #EEEEEE;
 }
 
+
 .ba-bw__image {
 	margin-left: 104px;
 }
 
 .ba-featured {
-	padding-top: 114px;
-	padding-bottom: 72px;
+	padding: 100px 72px;
 	margin-top: 185px;
 	border-radius: 5px;
 	background-color: #FFFFFF;
 }
 
 .ba-featured__layout {
-	max-width: 1198px;
-	margin: 0 auto;
+
 }
 
 .ba-featured__title {
@@ -167,13 +166,60 @@ textarea {
 }
 
 
+.ba-hover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #DF0011;
+	transform: translateX(-100%);
+	opacity: 1;
+	transition: all 0.6s ease-in-out;
+	border-radius: 5px;
+}
+
+.ba-featured__img {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ba-featured__img:hover .ba-hover {
+	transform: translateX(0);
+}
+.ba-featured__img h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: left;
+	color: #FFF;
+	margin: 0;
+	bottom: 42px;
+	left: 40px;
+	position: absolute;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+
+.ba-featured__img h3:after {
+	content: "";
+	width: 90px;
+	height: 5px;
+	left: 0;
+	bottom: 0;
+	background-color: #FFF;
+	position: absolute;
+}
+
 .ba-submit {
 	padding-top: 100px;
 	padding-bottom: 42px;
 	border-radius: 5px;
 }
 
-.ba-news__title {
+.ba-submit__title {
 	font-family: 'Raleway',sans-serif;
 	font-size: 48px;
 	font-weight: 900;
@@ -189,132 +235,76 @@ textarea {
 	padding-bottom: 78px;
 }
 
-.ba-news__text {
+.ba-submit__text {
 	max-width: 551px;
 	margin: 0 auto;
 	font: 400 18px/1.5 'Raleway', sans-serif;
 	padding-bottom: 78px;
+
+}
+
+.ba-subscribe {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 110px;
+	position: relative;
 }
 
 .ba-textfield {
-
-	margin-left:320px;
-	width: 492px;
-	height: 70px;
+	width: 70%;
+	padding: 20px 20px 20px 55px;
 	border-radius: 50% 0 0 50%;
 	text-decoration: none;
-	text-align: center;
 	border: none;
+	height: 70px;
 }
 
+.ba-textfield[placeholder] {
+	text-align: left;
+	font:600 18px 'Raleway', sans-serif italic;
+}
 .ba-textfield:hover {
 	text-transform: uppercase;
+	font-weight:800;
 }
 
-.ba-news__button {
-	max-width: 212px;
+.ba-submit__button {
+	position: absolute;
+	font: 900 18px 'Roboto', sans-serif;
+	width: 30%;
 	height: 70px;
 	border-radius: 0 50% 50% 0;
 	text-transform: uppercase;
 	background: #E10011;
 	color: #F7C3C7;
 
+
 }
 
-.ba-news__button:hover {
+.ba-submit__button:hover {
 	box-shadow: 0 10px 10px red;
 }
 
-.ba-news__button:focus,
+.ba-submit__button:focus,
 .ba-textfield {
 	outline: none;
 }
 
-.ba-link__logo {
-	display:inline-block;
+
+.ba-link {
+	font: 14px/1.5 sans-serif;
 }
 
-.ba-link__logo:first-child {
-	margin-left: 420px;
-}
-
-.ba-link__logo:hover {
-	box-shadow: 0 10px 10px red;
-}
-
-.ba-featured__img13 {
-	width: 325px;
-	height: 385px;
-	position: relative;
-	overflow: hidden;
-	transition: all 0.8s ease-in-out;
-}
-
-.ba-featured__img23 {
-	width: 695px;
-	height: 387px;
-	position: relative;
-	overflow: hidden;
-	transition: all 0.8s ease-in-out;
-}
-
-.ba-hover13 {
-	width: 325px;
-	height: 385px;
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-color: #DF0011;
-	overflow: hidden;
-	transform: translateY(385px);
-	opacity: 1;
-	transition: all 0.8s ease-in-out;
-	border-radius: 5px;
-}
-
-.ba-hover23 {
-	width: 695px;
-	height: 387px;
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-color: #DF0011;
-	overflow: hidden;
-	transform: translateX(695px);
-	opacity: 1;
-	transition: all 0.8s ease-in-out;
-	border-radius: 5px;
-}
-
-.ba-featured__img13 h3,
-.ba-featured__img23 h3 {
-	font-family: 'Roboto';
-	font-size: 30px;
-	font-weight: 900;
-	text-align: left;
-	color: #FFF;
-	margin: 0;
-	padding-top: 250px;
+.ba-link__contacts {
+	display: inline-block;
 	margin-left: 20px;
-}
-
-.ba-featured__img23 h3 {
-	padding-top: 300px;
-}
-
-.ba-featured__img13:hover .ba-hover13 {
-	transform: translateY(0px);
-}
-
-.ba-featured__img23:hover .ba-hover23 {
-	transform: translateY(0px);
-}
-
-.ba-featured__rectangle {
-	max-width: 90px;
-	height: 5px;
+	border-radius: 50%;
 	background-color: #FFF;
-	margin-left: 20px;
+}
+
+
+.ba-link__y {
+	background: url(../img/youtube.png) no-repeat 50% 50%;
 }
 
 
@@ -327,6 +317,6 @@ textarea {
 	color: #A3A3A3;
 }
 
-.ba-company {
+.ba-footer__company {
 	color: #303030;
 }
