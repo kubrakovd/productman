@@ -269,7 +269,7 @@ textarea {
 .ba-textfield {
 	width: 70%;
 	padding: 20px 20px 20px 55px;
-	border-radius: 50% 0 0 50%;
+	border-radius: 35px 0 0 35px;
 	text-decoration: none;
 	border: none;
 	height: 70px;
@@ -289,16 +289,18 @@ textarea {
 	font: 900 18px 'Roboto', sans-serif;
 	width: 30%;
 	height: 70px;
-	border-radius: 0 50% 50% 0;
+	border-radius: 0 35px 35px 0;
 	text-transform: uppercase;
 	background: #E10011;
 	color: #F7C3C7;
 
 
+
 }
 
 .ba-submit__button:hover {
-	box-shadow: 0 10px 10px red;
+	box-shadow: 0 5px 5px red;
+	border:none;
 }
 
 .ba-submit__button:focus,
@@ -331,7 +333,7 @@ textarea {
 
 
 .ba-link__contacts a:hover {
-	box-shadow: 0 10px 10px red;
+	box-shadow: 0 5px 5px red;
 }
 
 
