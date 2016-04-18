@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,600italic,900);
 
 body{
-	font: 400 18px/1.33 'Roboto','Raleway', sans-serif;
+	font: 400 18px/1.33 'Raleway', sans-serif;
 	color:  #303030;
 	background: #EEEEEE;
 }
@@ -60,21 +60,23 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
-	max-width: 100%;
-	height: auto;
+	max-width: 1200px;
+	margin-bottom: 100px;
 }
 
 .ba-header{
 	margin-top: 48px;
-	margin-bottom: 105px;
+	margin-bottom: -40px;
 }
 
 
-.ba-logo__title {
-	margin: 0;
-	font-size: 48px;
+.ba-logo {
+
+	font-size: 30px;
 	font-weight: 900;
-	padding-left: 152px;
+	margin-left: 15px;
+	margin-top: 15px;
+
 }
 
 .ba-logo__title:hover {
@@ -83,14 +85,14 @@ textarea {
 
 
 .ba-menu {
-	margin-top: 14px;
+	margin-top: 60px;
 	padding-right: 50px;
 	list-style: none;
 }
 
 .ba-menu li {
 	float:left;
-	margin-right: 5px;
+	margin-right: -40px;
 }
 
 .ba-menu a {
@@ -108,12 +110,9 @@ textarea {
 }
 
 .ba-intro {
-	padding: 44px 0 185px;
+	padding: 44px 0 30px;
 }
-.ba-bw {
-	padding-left: 130px;
 
-}
 
 .ba-bw__text {
 	width: 615px;
@@ -138,7 +137,7 @@ textarea {
 	word-wrap: break-word;
 }
 
-.ba-bw__text p {
+.ba-bw__text {
 	font-size: 24px;
 	line-height:1.5;
 	font-weight: 300;
@@ -163,9 +162,10 @@ textarea {
 	margin-left: 104px;
 }
 
+
+
 .ba-featured {
 	padding: 100px 72px;
-	margin-top: 185px;
 	border-radius: 5px;
 	background-color: #FFFFFF;
 }
@@ -178,8 +178,12 @@ textarea {
 	font-family: 'Raleway',sans-serif;
 	font-size: 48px;
 	font-weight: 900;
-	margin-bottom: 0;
+	background:url(../img/underline.jpg) no-repeat 50% 100%;
+	padding-bottom: 18px;
+	margin-bottom: 5px;
+	margin-left:50px;
 }
+
 
 
 .ba-hover {
@@ -199,6 +203,10 @@ textarea {
 	position: relative;
 	display: block;
 	overflow: hidden;
+}
+
+.ba-featured__img img {
+	display: block;
 }
 
 .ba-featured__img:hover .ba-hover {
@@ -230,7 +238,7 @@ textarea {
 }
 
 .ba-submit {
-	padding-top: 100px;
+
 	padding-bottom: 42px;
 	border-radius: 5px;
 }
@@ -242,6 +250,8 @@ textarea {
 	margin-bottom: 0;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: -10px;
+	margin-left: 55px;
 }
 
 .ba-featured__text {
@@ -263,6 +273,8 @@ textarea {
 	max-width: 700px;
 	margin: 0 auto;
 	margin-bottom: 110px;
+	margin-top: -40px;
+
 	position: relative;
 }
 
@@ -275,10 +287,8 @@ textarea {
 	height: 70px;
 }
 
-.ba-textfield[placeholder] {
-	text-align: left;
-	font:600 18px 'Raleway', sans-serif italic;
-}
+
+
 .ba-textfield:hover {
 	text-transform: uppercase;
 	font-weight:800;
@@ -287,19 +297,18 @@ textarea {
 .ba-submit__button {
 	position: absolute;
 	font: 900 18px 'Roboto', sans-serif;
-	width: 30%;
 	height: 70px;
 	border-radius: 0 35px 35px 0;
 	text-transform: uppercase;
 	background: #E10011;
 	color: #F7C3C7;
-
-
+	border:none;
+	padding: 0 20px;
 
 }
 
 .ba-submit__button:hover {
-	box-shadow: 0 5px 5px red;
+	box-shadow: 0 2px 2px red;
 	border:none;
 }
 
@@ -313,10 +322,11 @@ textarea {
 	font: 14px/1.5 sans-serif;
 	text-align: center;
 }
-}
 
 .ba-link__contacts {
 	display: inline-block;
+	margin-left: 50px;
+	margin-top: -30px;
 
 }
 
@@ -333,7 +343,7 @@ textarea {
 
 
 .ba-link__contacts a:hover {
-	box-shadow: 0 5px 5px red;
+	box-shadow: 1px 1px 1px 1px red;
 }
 
 
